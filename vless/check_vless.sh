@@ -36,16 +36,16 @@ generate_uuid() {
 
     # 预定义的UUID列表
     predefined_uuids=(
-        "fb210b24-46dd-4b4c-92ce-097385945dad"
-        "53cfcb07-8c25-4c25-baaa-95b4b50871a2"
-        "445ae56f-727d-495e-9c88-cbe942d144a6"
-        "078eb39d-2094-4272-b221-782ba0520dd6"
-        "5826e9cc-c5b7-49ca-8b37-a0ea68f382cc"
-        "e79fda4a-9519-4ef3-8973-130801b3d0ae"
-        "c0422b3b-00aa-4dbe-8573-6fb15d49e557"
-        "907e3ac9-02de-47fe-b40c-c2bd912c3adf"
-        "c53ca34c-8d9c-4a7e-8b44-5da52e4b5eaa"
-        "73fc0a2d-2458-435b-92aa-b4e8e3e40944"
+        "f3d84626-313f-4435-b86b-712573189400"
+        "654a6c45-915c-49a4-9f6a-00f61e5ccc05"
+        "3f3baf83-98c0-4921-80c3-56842c1b551d"
+        "6d1f7184-f6bb-487a-b4b6-38f3c86341ef"
+        "ef6de367-96fd-4aba-ac47-1ee6b90eec05"
+        "ca53fe66-74a0-4803-ae29-f8a040dcb8cb"
+        "f884b222-9129-4071-b7e8-be320c44140c"
+        "0d6b5ae6-d9f3-484e-9fcc-bd138f686086"
+        "cdee4875-7b20-4f08-8f88-86b9ea8293e1"
+        "c7b23e0a-8cbb-41c4-9e70-8095df1a7cf4"
     )
     uuid=${predefined_uuids[$RANDOM % ${#predefined_uuids[@]}]}
     echo "$uuid"
